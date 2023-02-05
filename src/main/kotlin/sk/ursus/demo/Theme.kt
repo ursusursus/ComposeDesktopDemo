@@ -1,4 +1,5 @@
-import androidx.compose.material.Colors
+package sk.ursus.demo
+
 import androidx.compose.ui.graphics.Color
 
 val LightBlue = Color(0xFFF0F6FA)

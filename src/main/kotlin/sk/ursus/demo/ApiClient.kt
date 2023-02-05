@@ -1,3 +1,5 @@
+package sk.ursus.demo
+
 import com.squareup.moshi.JsonClass
 import retrofit2.http.GET
 

@@ -1,0 +1,19 @@
+CREATE TABLE player(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT
+);
+
+allPlayers:
+SELECT id, name FROM player;
+
+insertPlayer:
+INSERT INTO player(name) VALUES (?);
+
+insertPlayer2:
+INSERT INTO player VALUES ?;
+
+updatePlayer:
+UPDATE player SET name=?;
+
+deletePlayer:
+DELETE FROM player WHERE id=?;

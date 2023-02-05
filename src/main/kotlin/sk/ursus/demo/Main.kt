@@ -1,3 +1,5 @@
+package sk.ursus.demo
+
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -35,7 +37,7 @@ fun main() = application {
 @Composable
 fun App() {
     MaterialTheme(
-        colors = if (isSystemInDarkTheme()) darkColors() else lightColors()
+        colors = if (false && isSystemInDarkTheme()) darkColors() else lightColors()
     ) {
         Surface {
             MainScreen()
